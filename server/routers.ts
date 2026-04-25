@@ -8,6 +8,7 @@ import { documentRouter } from "./routers/documents";
 import { tasksRouter } from "./routers/tasks";
 import { bugsRouter } from "./routers/bugs";
 import { disputesRouter } from "./routers/disputes";
+import { notificationsRouter } from "./routers/notifications";
 
 export const appRouter = router({
   system: systemRouter,
@@ -29,6 +30,7 @@ export const appRouter = router({
   tasks: tasksRouter,
   bugs: bugsRouter,
   disputes: disputesRouter,
+  notifications: notificationsRouter,
 });
 
 export type AppRouter = typeof appRouter;

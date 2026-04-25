@@ -2,6 +2,7 @@ import { COOKIE_NAME } from "@shared/const";
 import { getSessionCookieOptions } from "./_core/cookies";
 import { systemRouter } from "./_core/systemRouter";
 import { publicProcedure, router } from "./_core/trpc";
+import { projectsRouter } from "./routers/projects";
 import { workflowRouter } from "./routers/workflow";
 import { documentRouter } from "./routers/documents";
 import { tasksRouter } from "./routers/tasks";
@@ -22,6 +23,7 @@ export const appRouter = router({
   }),
 
   // Multi-agent workflow system routers
+  projects: projectsRouter,
   workflows: workflowRouter,
   documents: documentRouter,
   tasks: tasksRouter,

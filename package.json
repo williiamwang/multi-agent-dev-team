@@ -1,0 +1,20 @@
+{
+  "name": "arch-driven-sdlc",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Architecture-driven Software Development Life Cycle following Momo AI Engineering Protocol v3.0",
+  "main": "SKILL.md",
+  "keywords": [
+    "ai",
+    "agents",
+    "ioc",
+    "aop",
+    "isolation",
+    "architecture",
+    "development",
+    "workflow",
+    "sdlc"
+  ],
+  "author": "Momo AI Engineering Protocol",
+  "license": "MIT"
+}
